@@ -31,41 +31,43 @@
 			</div>
 			<div class="name-area">
 				<h3 class="name-area__title">представьтесь, пожалуйста:</h3>
-				<label class="name-area__name"></label>
+				<label class="name-area__name">имя</label>
 				<input class="name-area__name" type="text">
-				<label class="name-area__family"></label>
+				<label class="name-area__family">фамилия</label>
 				<input class="name-area__family" type="text">
-				<label class="name-area__fater"></label>
+				<label class="name-area__fater">отчество</label>
 				<input class="name-area__fater" type="text">
 			</div>
 			<div class="contact-area">
 				<h3 class="contact-area__title">контактная информация:</h3>
-				<label class="contact-area__number"></label>
-				<input class="contact-area__email" type="text" img src="">
-				<label class="contact-area__number"></label>
-				<input class="contact-area__email" type="text" img src="">
+				<label class="contact-area__number">контактный телефон</label>
+				<input class="contact-area__email" type="tel" required name="tel" img src="">
+				<label class="contact-area__number">электронная почта</label>
+				<input class="contact-area__email" type="email" required name="email" img src="">
 			</div>
 			<div class="impression-area">
 				<p class="impression-area__title">ваше общае впечатление:</p>
 				<input class="impression-area__radio--on" type="radio">
-				<label class="impression-area__label"></label>
+				<label class="impression-area__label">Скорее положительное</label>
 				<input class="impression-area__radio--on" type="radio">
-				<label class="impression-area__label"></label>
-				<input class="impression-area__radio--on">
-				<label class="impression-area__label" type="radio"></label>
+				<label class="impression-area__label">Скорее отрицательное</label>
+				<input class="impression-area__radio--on" type="radio">
+				<label class="impression-area__label" >Затрудняюсь ответить</label>
 			</div>
 			<div class="visited-places">
 				<p class="visited-places__title">посещённые достопримечательности:</p>
 				<input class="visited-places__checkbox visited-places__checkbox__on" type="checkbox">
-				<label class="visited-places__label"></label>
+				<label class="visited-places__label">Мост Дьявола</label>
 				<input class="visited-places__checkbox visited-places__checkbox__on" type="checkbox">
-				<label class="visited-places__label"></label>
+				<label class="visited-places__label">Слайд-Парк</label>
 				<input class="visited-places__checkbox visited-places__checkbox__on" type="checkbox">
-				<label class="visited-places__label"></label>
+				<label class="visited-places__label">Гора-Колокол</label>
+				<input class="visited-places__checkbox visited-places__checkbox__on" type="checkbox">
+				<label class="visited-places__label">Красные Скалы</label>
 			</div>
 			<div class="emotions-request">
 				<h3 class="emotions-request__title">опишите свои эмоции:</h3>
-				<textarea class="emotions-request__text-area">Опишите подробно все свои восторги</textarea>
+				<textarea class="emotions-request__text-area" placeholder="Опишите подробно все свои восторги"></textarea>
 				<input class="btn" type="submit" value="отправить отзыв">
 			</div>
 		</div>
